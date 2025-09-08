@@ -9,7 +9,7 @@ RUN pip3 install flask
 
 WORKDIR /app
 
-COPY -/api.py /app/api.py
+COPY ./api.py /app/api.py
 
 EXPOSE 5252
 
